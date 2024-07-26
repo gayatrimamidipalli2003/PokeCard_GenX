@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login form in html css</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <!-- remixicons link -->
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+    rel="stylesheet"/>
+
+    <!-- google fonts link -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sen:wght@400..800&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <div class="content">
+        <form action="/form_get" method="post">
+            <h2>Login</h2>
+            <!-- <div class="input-box">
+                <input type="Email" placeholder="Email-id" required>
+                <i class="ri-mail-fill"></i>
+            </div> -->
+            <div class="input-box">
+                <input type="text" name="uname" placeholder="User Name" required>
+                <i class="ri-user-fill"></i>
+            </div>
+
+            <div class="input-box">
+                <input type="password" name="pass" placeholder="Password" required>
+                <i class="ri-lock-fill"></i>
+            </div>
+
+            <!-- <div class="remember">
+                <label><input type="Checkbox">Remember me</label>
+                <a href="#">Forget Password</a>
+            </div> -->
+
+            <button type="submit" value="submit" class="btnn">Login</button>
+
+            <div class="button">
+                <a id="google-link" href="#">
+                    <i class="ri-google-fill"></i>
+                    Google
+                </a>
+
+                <a id="facebook-link" href="#">
+                    <i class="ri-facebook-fill"></i>
+                    Facebook
+                </a>
+            </div>
+        </form>
+    </div>
+
+    <script src="client.js"></script>
+    
+</body>
+</html>
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        table {
+            margin: 50px auto;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        td {
+            padding: 10px;
+        }
+
+        input[type="text"],
+        input[type="password"],
+        input[type="submit"] {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+            font-size: 16px;
+        }
+
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <h1>REGISTER FORM</h1>
+    <form action="/form_get" method="post">
+        <table cellspacing="0" cellpadding="10">
+            <tr>
+                <td>USERNAME:</td>
+                <td><input type="text" name="uname" placeholder="Enter username"></td>
+            </tr>
+            <tr>
+                <td>PASSWORD:</td>
+                <td><input type="password" name="pass" placeholder="Enter password"></td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center"><input type="submit" value="submit"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html> -->
